@@ -1,29 +1,80 @@
-/* Write Your CSS Below 
-Colors: 
-- rgb(243, 183, 106)
-- yellow
-- rgb(241, 117, 0)
-- red
-- #f3b76a
-- #f17500
-- #0d6e00
-- #6d00fb
-- #dbff39
-- #74c9f1
-- #fb4040
 
-Sizes: 
-- 100%
-- 70%
-- auto
-- 1.5em
-- 3rem
-- .5em
+
+body {
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"); 
+    background-size: 100%;
+    
+}
+
+
+h1 {
+    color: #6d00fb;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #fb4040;
+    border-radius: .5em;
+    padding: 5px 0 5px 0;
+    font-size: 3rem;
+    text-shadow: yellow;
+    background-image: linear-gradient(to bottom,#74c9f1, red)
+    
+}
+
+#jordans-1 {
+
+  height: 400px;
+  width: 600px;
+  box-shadow: 5px 10px 18px blue;
+  
+
+}
+
+
+
+#jordans-1-desc {
+   font-family: sans-serif;
+   font-size: 1.5rem;
+   color:white;
+   background-color: #74c9f1;
+   border: 1px solid #fb4040;
+   border-radius: .5rem;
+   padding: 10px 10px 10px 10px;
+   width: 75%;
+
+    
+}
+
+a {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+#jordans-2 {
+    height: 400px;
+    width: 600px;
+    box-shadow: 5px 10px 18px red;
+}
+
+
+#jordans-2-desc {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color:white;
+    background-color: red;
+    border: 1px solid #0d6e00;
+    border-radius: .5rem;
+    padding: 10px 10px 10px 10px;
+    width: 75%;
+
+
+}
+
+
 
 Font: 
 - Copperplate (You can also use any font that you'd like!)
 
-Images: 
-- "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
-    - (You may use any image you would like for the background!)
-*/
+
